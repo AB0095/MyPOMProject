@@ -33,7 +33,7 @@ public class LoginPage extends BaseClass {
 */
 	public LoginPage()
 	{
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this); // this will initialze the elements
 	}
 
 	

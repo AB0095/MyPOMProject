@@ -252,7 +252,7 @@ public class CommonTestUtil extends BaseClass{
 		String currentDir = System.getProperty("user.dir");
 		//FactoryUtils.copyFile(fp, new File(currentDir+"\\Screenshots\\"+System.currentTimeMillis()+".png"));
 		
-		//FileHandler.copy(fp, new File(currentDir+"\\Screenshots\\"+System.currentTimeMillis()+".png"));
+		FileHandler.copy(fp, new File(currentDir+"\\Screenshots\\"+System.currentTimeMillis()+".png"));
 		
 	}
 	
