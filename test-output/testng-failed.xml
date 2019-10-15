@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM Suite]">
+  <listeners>
+    <listener class-name="com.freeCrm.report.ReportListner"/>
+  </listeners>
+  <test name="Ecom Test cases">
+    <classes>
+      <class name="com.freeCrm.testCases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Ecom Test cases -->
+  <test name="Ecom Test cases(failed)">
+    <classes>
+      <class name="com.freeCrm.testCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.freeCrm.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Ecom Test cases(failed) -->
+</suite> <!-- Failed suite [FreeCRM Suite] -->
